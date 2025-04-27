@@ -1,0 +1,36 @@
+svg {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: -75px;
+    left: 90px;
+}
+
+.facts {
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+}
+
+path {
+    fill: lightgray;
+    stroke: black;
+    stroke-width: 0.5;
+    cursor: pointer; 
+}
+
+path:hover {
+    fill: green;
+}
+
+p {
+    color: black;
+    user-select: none;
+}
+.hide {
+    color: white;
+    user-select: none;
+}
